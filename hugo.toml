@@ -3,6 +3,19 @@ languageCode = 'en-us'
 title = 'My Portfolio'
 theme = "PaperMod"
 
+[menu]
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
 [params]
   # ... other settings ...
   defaultTheme = "dark"
