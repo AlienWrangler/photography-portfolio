@@ -15,3 +15,12 @@ theme = "PaperMod"
   [params.cover]
     hidden = false
     responsiveImages = true
+
+[[params.socialIcons]]
+    name = "instagram"
+    url = "https://www.instagram.com/___._samir_.___/"
+
+# Optional: Add GitHub too if you want
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/AlienWrangler"
