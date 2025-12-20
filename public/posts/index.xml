@@ -6,14 +6,6 @@
     <description>Recent content in Posts on My Portfolio</description>
     <generator>Hugo -- 0.153.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Fallas Valencia</title>
-      <link>http://localhost:1313/posts/fallas-valencia/</link>
-      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fallas-valencia/</guid>
-      <description>A collection of 6 highlights from the Fallas festival.</description>
-    </item>
   </channel>
 </rss>

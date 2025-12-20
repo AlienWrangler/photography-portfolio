@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galería de Fotos on Samir&#39;s Portfolio</title>
+    <link>http://localhost:1313/albums/</link>
+    <description>Recent content in Galería de Fotos on Samir&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>samir.saad@gmail.com (Samir)</managingEditor>
+    <webMaster>samir.saad@gmail.com (Samir)</webMaster><atom:link href="http://localhost:1313/albums/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

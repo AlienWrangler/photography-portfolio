@@ -1,39 +1,41 @@
 baseURL = 'https://reliable-ganache-c5d1bb.netlify.app/'
 languageCode = 'en-us'
-title = 'My Portfolio'
-theme = "PaperMod"
+title = "Samir's Portfolio"
+theme = "gallery"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.83.0"
+
+[params]
+  # BORRÉ LA LÍNEA 'author = "Samir"' DE AQUÍ PARA EVITAR EL ERROR
+  description = "Street Photography & Code"
+  mainSections = ["albums"]  # <--- Esto arregla tu portada
+  
+  # Configuración correcta del autor (objeto)
+  [params.author]
+    name = "Samir"
+    email = "samir.saad@gmail.com"
+
+  # Redes sociales
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/___._samir_.___/"
+    
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/AlienWrangler"
 
 [menu]
   [[menu.main]]
-    identifier = "portfolio"
-    name = "Portfolio"
+    identifier = "albums"
+    name = "Galería"
     url = "/"
     weight = 10
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "Sobre mí"
     url = "/about/"
     weight = 20
-
-[params]
-  # ... other settings ...
-  defaultTheme = "dark"
-  
-  [params.homeInfoParams]
-    Title = "My Portfolio"
-    Content = "Welcome to my photography collection."
-
-  # This makes the homepage a grid of cards instead of a list
-  [params.cover]
-    hidden = false
-    responsiveImages = true
-
-[[params.socialIcons]]
-    name = "instagram"
-    url = "https://www.instagram.com/___._samir_.___/"
-
-# Optional: Add GitHub too if you want
-[[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/AlienWrangler"

@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Portfolio</title>
+    <title>Samir&#39;s Portfolio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My Portfolio</description>
-    <generator>Hugo -- 0.153.0</generator>
+    <description>Recent content on Samir&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>samir.saad@gmail.com (Samir)</managingEditor>
+    <webMaster>samir.saad@gmail.com (Samir)</webMaster>
+    <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Birds</title>
+      <link>http://localhost:1313/birds/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate><author>samir.saad@gmail.com (Samir)</author>
+      <guid>http://localhost:1313/birds/</guid>
+        <media:content url="http://localhost:1313/birds/DSC_4715_hu_1f7920d86e6fe577.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/birds/DSC_4715_hu_1f7920d86e6fe577.jpg&quot; /&gt;
+          &lt;p&gt;Avistamientos y fotografía de aves.&lt;/p&gt;
+        </description></item>
     <item>
       <title>Fallas Valencia</title>
-      <link>http://localhost:1313/posts/fallas-valencia/</link>
-      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fallas-valencia/</guid>
-      <description>A collection of 6 highlights from the Fallas festival.</description>
-    </item>
+      <link>http://localhost:1313/fallas/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><author>samir.saad@gmail.com (Samir)</author>
+      <guid>http://localhost:1313/fallas/</guid>
+        <media:content url="http://localhost:1313/fallas/DSC_1562_hu_cfa74457b08c5b1e.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/fallas/DSC_1562_hu_cfa74457b08c5b1e.jpg&quot; /&gt;
+          &lt;p&gt;Highlights from the festival.&lt;/p&gt;
+        </description></item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>about</description>
-    </item>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>samir.saad@gmail.com (Samir)</author>
+      <guid>http://localhost:1313/about/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>
