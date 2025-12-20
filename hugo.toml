@@ -1,0 +1,17 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My Portfolio'
+theme = "PaperMod"
+
+[params]
+  # ... other settings ...
+  defaultTheme = "dark"
+  
+  [params.homeInfoParams]
+    Title = "My Portfolio"
+    Content = "Welcome to my photography collection."
+
+  # This makes the homepage a grid of cards instead of a list
+  [params.cover]
+    hidden = false
+    responsiveImages = true
