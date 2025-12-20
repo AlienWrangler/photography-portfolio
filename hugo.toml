@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://6946b524493d92d1e493994b--reliable-ganache-c5d1bb.netlify.app/'
 languageCode = 'en-us'
 title = 'My Portfolio'
 theme = "PaperMod"
