@@ -1,7 +1,8 @@
-baseURL = 'https://reliable-ganache-c5d1bb.netlify.app/'
+baseURL = 'https://samir-saad.netlify.app/'
 languageCode = 'en-us'
 title = "Samir's Portfolio"
 theme = "gallery"
+copyright = "© Samir Saad" # Añade un pie de página profesional
 
 [module]
   [module.hugoVersion]
@@ -9,23 +10,39 @@ theme = "gallery"
     min = "0.83.0"
 
 [params]
-  # BORRÉ LA LÍNEA 'author = "Samir"' DE AQUÍ PARA EVITAR EL ERROR
   description = "Street Photography & Code"
-  mainSections = ["albums"]  # <--- Esto arregla tu portada
+  # Esto fuerza a que la home sea la galería, tal como lo tenías y como lo usa Nico
+  mainSections = ["albums"] 
   
-  # Configuración correcta del autor (objeto)
+  # ESTILO: 'auto' cambia entre claro/oscuro según el sistema del visitante.
+  # Puedes cambiarlo a 'light' o 'dark' si prefieres uno fijo.
+  style = "auto" 
+
+  # --- CONFIGURACIÓN DEL AUTOR ---
   [params.author]
     name = "Samir"
     email = "samir.saad@gmail.com"
+    # Puedes añadir una imagen de perfil si la subes a /static/
+    # image = "/me.jpg" 
 
-  # Redes sociales
-  [[params.social]]
-    name = "instagram"
-    url = "https://www.instagram.com/___._samir_.___/"
+  # --- CONFIGURACIÓN DE LA GALERÍA (ESTILO NICO KAISER) ---
+  [params.gallery]
+    # Activa la visualización de datos EXIF (Cámara, ISO, f/, etc.)
+    # Esto es esencial para el look "fotógrafo pro".
+    exif = true
     
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/AlienWrangler"
+    # Altura de las filas en la galería (en px). 
+    # 300 es un buen equilibrio. Nico suele usar valores entre 250 y 350.
+    rowHeight = 300
+    
+    # Habilita hacer clic en la imagen para verla en pantalla completa (lightbox)
+    enableLightbox = true
+
+ # --- REDES SOCIALES (Formato correcto Nico Kaiser) ---
+  [params.socialIcons]
+    instagram = "https://www.instagram.com/___._samir_.___/"
+    github = "https://github.com/AlienWrangler"
+    email = "mailto:samir.saad@gmail.com"
 
 [menu]
   [[menu.main]]

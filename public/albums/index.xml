@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Galería de Fotos on Samir&#39;s Portfolio</title>
+    <title>Albums on Samir&#39;s Portfolio</title>
     <link>http://localhost:1313/albums/</link>
-    <description>Recent content in Galería de Fotos on Samir&#39;s Portfolio</description>
+    <description>Recent content in Albums on Samir&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>samir.saad@gmail.com (Samir)</managingEditor>
-    <webMaster>samir.saad@gmail.com (Samir)</webMaster><atom:link href="http://localhost:1313/albums/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>samir.saad@gmail.com (Samir)</webMaster>
+    <copyright>© Samir Saad</copyright>
+    <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/albums/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Birds</title>
+      <link>http://localhost:1313/albums/birds/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate><author>samir.saad@gmail.com (Samir)</author>
+      <guid>http://localhost:1313/albums/birds/</guid>
+        <media:content url="http://localhost:1313/albums/birds/DSC_4715_hu_1f7920d86e6fe577.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/albums/birds/DSC_4715_hu_1f7920d86e6fe577.jpg&quot; /&gt;
+          &lt;p&gt;Avistamientos y fotografía de aves.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Fallas Valencia</title>
+      <link>http://localhost:1313/albums/fallas/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><author>samir.saad@gmail.com (Samir)</author>
+      <guid>http://localhost:1313/albums/fallas/</guid>
+        <media:content url="http://localhost:1313/albums/fallas/DSC_1562_hu_cfa74457b08c5b1e.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/albums/fallas/DSC_1562_hu_cfa74457b08c5b1e.jpg&quot; /&gt;
+          &lt;p&gt;Highlights from the festival.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Urban Photography</title>
+      <link>http://localhost:1313/albums/urban/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><author>samir.saad@gmail.com (Samir)</author>
+      <guid>http://localhost:1313/albums/urban/</guid>
+        <media:content url="http://localhost:1313/albums/urban/DSC_1332--1_hu_6767f08dba447629.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/albums/urban/DSC_1332--1_hu_6767f08dba447629.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
   </channel>
 </rss>
