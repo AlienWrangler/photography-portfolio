@@ -6,14 +6,16 @@
         justify-content: center;
     }
     .gallery-container img {
-        height: 300px; /* Forces all images to same height */
+        height: 300px; /* Tu truco para filas justificadas */
         flex-grow: 1;
         object-fit: cover;
         border-radius: 4px;
         transition: transform 0.2s;
+        cursor: pointer;
     }
     .gallery-container img:hover {
         transform: scale(1.02);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     /* Mobile optimization */
     @media (max-width: 600px) {
@@ -25,5 +27,23 @@
 </style>
 
 <div class="gallery-container">
-    {{ .Inner }}
+    {{/* LÓGICA DE AUTOMATIZACIÓN */}}
+    
+    {{/* 1. Obtenemos todas las imágenes de la carpeta actual (Page Bundle) */}}
+    {{ $images := .Page.Resources.ByType "image" }}
+    
+    {{/* 2. Iniciamos el bucle LOOP AT it_images INTO wa_image */}}
+    {{ range $images }}
+        
+        {{/* 3. Filtro opcional: Excluir imagen destacada si se llama 'feature.jpg' o similar. 
+             Si no lo necesitas, borra el 'if'. */}}
+        {{ if not (in .Name "feature") }}
+            <img src="{{ .RelPermalink }}" 
+                 alt="{{ .Name }}" 
+                 loading="lazy" 
+                 width="{{ .Width }}" 
+                 height="{{ .Height }}">
+        {{ end }}
+
+    {{ end }}
 </div>
