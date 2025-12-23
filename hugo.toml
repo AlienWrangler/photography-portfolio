@@ -38,12 +38,6 @@ copyright = "© Samir Saad" # Añade un pie de página profesional
     # Habilita hacer clic en la imagen para verla en pantalla completa (lightbox)
     enableLightbox = true
 
- # --- REDES SOCIALES (Formato correcto Nico Kaiser) ---
-  [params.socialIcons]
-    instagram = "https://www.instagram.com/___._samir_.___/"
-    github = "https://github.com/AlienWrangler"
-    email = "mailto:samir.saad@gmail.com"
-
 [menu]
   [[menu.main]]
     identifier = "albums"
